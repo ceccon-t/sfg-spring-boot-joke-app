@@ -8,8 +8,8 @@ public class ChuckNorrisJoker implements Joker {
 	
 	private ChuckNorrisQuotes quoter;
 	
-	public ChuckNorrisJoker() {
-		quoter = new ChuckNorrisQuotes();
+	public ChuckNorrisJoker(ChuckNorrisQuotes chuckNorrisQuotes) {
+		quoter = chuckNorrisQuotes;
 	}
 
 	@Override
